@@ -42,7 +42,7 @@ This Bash script checks if a given website is responding successfully by sending
    ./website_check.sh -s <website> [slack_webhook_url]
    ```
 
-If you want to run the script in the background of the terminal, at the very end just add `&`:
+If you want to run the script in the background, just add `&` at the very end of the call:
  ```bash
    ./website_check.sh <website> [slack_webhook_url] &
  ```
