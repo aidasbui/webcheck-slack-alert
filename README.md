@@ -11,7 +11,7 @@ This Bash script checks if a given website is responding successfully by sending
 - Handles `localhost` specifically by ensuring it uses `http://` if no protocol is provided.
 - Notifies a specified Slack channel once the website becomes available.
 - Retries every 5 seconds until the website responds.
-- **NEW**: Add `-s` or `--silent` to run the script without any output.
+- Add `-s` or `--silent` to run the script without any output.
 
 ---
 
